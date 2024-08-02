@@ -1,0 +1,13 @@
+.imagem{
+    width: 250px; /* largura da margem*/
+    height: 50px; /* altura da margem*/
+    background-color: aquamarine;
+    margin-top: 10px; /* abaixa a margem*/
+    margin: 0 auto; /*centalizado*/
+
+}
+.imagem:hover{
+    background-color: cadetblue;
+    width: 300px;
+    height: 80px;
+}
