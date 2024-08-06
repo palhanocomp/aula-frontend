@@ -1,14 +1,62 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap</title>
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <style>
+        div {
+            border: 1px solid red;
+        }
+        .imagem{
+            margin: 20px auto;
+            /*mover imagem de fundo*/
+            width: 400px;
+            height: 200px;
+            background-image: url(ifood.png);
+            background-size: 50%;
+            color: black;
+            background-repeat: no-repeat;
+            background-position: center;
+            /*mover imagem de fundo*/
+        }
+    </style>
 
 </head>
+
 <body>
     <h1>Aula de Bootstrap</h1>
-    
+
+    <div class="alert alert-danger">
+        usuário ivalido
+    </div>
+
+    <button class="btn btn-primary">Salvar</button>
+
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">topo</div>
+            <nav class="nevbar bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand">Barra de navegação</a>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </nav>
+            <div class="col-4 offset-2">lateral</div>
+            <div class="col-4">principal</div>
+        </div>
+    </div>
+    <div class="imagem">
+        <h1>texto com imagem</h1>
+    </div>
+
 </body>
+
 </html>
