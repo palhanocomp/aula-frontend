@@ -100,3 +100,39 @@ function ex7()
         saida.value = "Criança"
     }
 }
+function ex8()
+{
+    var entrada = valor.value;
+
+    if(entrada == "f")
+    {
+        saida.value = "Feminino";
+    } else if ( entrada == "m")
+    {
+        saida.value = "Masculino"
+    } else
+    {
+        saida.value = "Sexo inválido"
+    }
+}
+function ex9()
+{
+    var entrada = valor.value;
+
+    if (entrada == "a")
+     {   saida.value = "vogal";
+    } else if (entrada == "e")
+    {    saida.value = "vogal";
+    }else if (entrada == "e")
+     {   saida.value = "vogal";
+    }else if (entrada == "i")
+        {    saida.value = "vogal";
+    }else if (entrada == "o")
+    {    saida.value = "vogal";
+    }else if (entrada == "u")
+        {    saida.value = "vogal";
+        }else 
+        {
+            saida.value = "consoante"
+        }
+}
