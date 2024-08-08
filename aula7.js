@@ -55,3 +55,14 @@ function ex24()
    saida.value = resultado1 + resultado2
 
 }
+// function = sub programa = subrotina
+// E(entrada) = P(processamento) = S(saida) 
+
+function soma (n1, n1)
+{
+    var resultado = n1 + n2;
+    return resultado;
+}
+
+//executa a função
+soma(3, 5);
