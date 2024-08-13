@@ -27,7 +27,7 @@
                     <div class="row">
                         <div class="col">
                             <label class="form-label">Nome paciente</label>
-                            <input class="form-control" type="text" placeholder="Nome do animal" />
+                            <input id="paciente" class="form-control " type="text" placeholder="Nome do animal" />
                         </div>
                     </div>
                     <div class="row">
@@ -61,12 +61,12 @@
                         </div>
                         <div class="col">
                             <label class="form-label">Tipo de Serviço</label>
-                            <select class="form-select">
-                                <option>--Selecione--</option>
-                                <option>Consulta</option>
-                                <option>Banho e Tosa</option>
-                                <option>Internamento</option>
-                                <option>Exames</option>
+                            <select id="servico" class="form-select">
+                                <option value="0">--Selecione--</option>
+                                <option value="10">Consulta</option>
+                                <option value="11">Banho e Tosa</option>
+                                <option value="12">Internamento</option>
+                                <option value="13">Exames</option>
                             </select>
                         </div>
                     </div>
@@ -128,7 +128,7 @@
     
             </div>
             <div class="card-footer">
-                <button class="btn btn-primary">Salvar</button>
+                <button id="bt-salvar" class="btn btn-primary">Salvar</button>
             </div>
         </div>
     
